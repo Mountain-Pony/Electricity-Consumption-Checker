@@ -1,0 +1,49 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3, p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+button {
+    margin-top: 0.5em;
+    border: none;    
+    border-radius: 1em;
+    padding: 0.5em 3em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    background-color: rgb(44, 44, 255);
+    color: white;
+    overflow: hidden;
+}
+
+.container {
+    margin: 2em;
+}
+
+.output-container {
+    margin: 2em;
+    width: fit-content;
+}
+
+.output-table-monthly {
+    margin-left: -0.75em;
+    margin-top: -0.75em;
+    border-collapse:separate; 
+    border-spacing: 1em;
+}
+
+.output-header {
+    margin-bottom: 1em;
+    text-align: center;
+}

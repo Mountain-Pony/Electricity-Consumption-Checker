@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <title>Electricity Consumption</title>
+</head>
+
+<body>
+    
+    <div class="header">
+        <h1>Electricity Consumption</h1>
+    </div>
+    
+    <div class="container">
+        <form enctype="application/x-www-form-urlencoded">
+            <h3>Hakaniemi Market Hall</h3>
+            <p>Data provided by: <a href="https://helsinki-openapi.nuuka.cloud/swagger/index.html">Nuuka Open API</a></p>
+            <button type="button" class="execute" onclick="execute()">Get data</button>
+        </form>
+    </div>
+
+    <div class="output-container" id="error-messages"></div>
+    <div class="output-container" id="output-electricity-consumption"></div>
+    
+</body>
+<script src="resources/js/electricityFront.js"></script>
+
+</html>
